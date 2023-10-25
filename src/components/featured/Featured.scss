@@ -28,7 +28,7 @@
                     display: flex;
                     align-items: center;
                     gap: 10px;
-
+                    width: 100%;
                     img{
                         width: 20px;
                         height: 20px;
@@ -38,6 +38,7 @@
                     input {
                         border: none;
                         outline: none;
+                        width: 100%;
                     }
                 }
                 button{
@@ -47,6 +48,11 @@
                     background-color: #1dbf73;
                     color: white;
                     cursor: pointer;
+                    border-radius: 0 5px;
+                    &:hover{
+                        background-color: #158c54;
+                        border-color: #158c54;
+                    }
                 }
             }
 
